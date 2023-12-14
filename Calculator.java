@@ -53,9 +53,7 @@ class Calculator implements ActionListener {
 		int i=Integer.parseInt(t1.getText());
 		int j=Integer.parseInt(t2.getText());
 		    
-		if(e.getSource()==b1) {	
-			
-			t3.setText(String.valueOf(i+j));}
+		if(e.getSource()==b1) 	t3.setText(String.valueOf(i+j));
 				      
 		if(e.getSource()==b2)	t3.setText(String.valueOf(i-j));
 				    
